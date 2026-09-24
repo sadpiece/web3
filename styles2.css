@@ -16,31 +16,37 @@ Background-color: #e1e1e1;
 
 
 .first, .second, .third { 
-  Float: left;
   padding: 20px; 
   margin: 5px; 
+  border: 2px solid #333333; 
+}
+
+.first, .third {
+  background-color: #279a2b; 
+  color: #000000;
+  height: 175px;
+  width: 400px;
+}
+
+.first {
+  position: absolute; 
+  top: 0px;
+  left: 0;
+}
+
+.third {
+  position: absolute; 
+  top: 0px; 
+  left: 450px;
+}
+
+.second {
+  background-color: #1d91cf; 
+  color: #ffffff;
+  position: absolute; 
+  top: 60px; 
+  left: 175px; 
   height: 50px;
-  Width: 250px;
-  border: 2px solid black;
-  }
-
-.first{
-  Background-color: #2e206e; Color: #ffffff;
-  position: absolute; top: 450px; left: 125px;
+  width: 500px;
   z-index: 1;
 }
-
-
-.second{
-  Background-color: #318614; Color: #000000;
-  position: absolute; top: 350px; left: 300px;
-  height: 75px;
-}
-
-
-.third{
-  Background-color: #3080ac; Color: #000000;
-  position: absolute; top: 275px; left: 470px;
-  z-index: 1;
-}
-
