@@ -2,30 +2,23 @@ body {
   background-color: #e1e1e1;
 }
 
-.navigation{
- text-align: center;
- margin-bottom: 20px;
- padding: 10px;
- background-color: #f1f1f1;
-}
 .wrapper { 
   width: 940px; 
   margin: 0 auto;
-  position: relative; 
   height: 300px;
 }
 
-.first, .second, .third { 
+.first, .second, .third, .fourth { 
   padding: 20px; 
   margin: 5px; 
-  width: 200px;
-  border: 2px solid black;
+  border: 2px solid #333333; 
 }
 
 .first, .third {
   background-color: #279a2b; 
   color: #000000;
   height: 40px;
+  width: 170px;
 }
 
 .first {
@@ -36,24 +29,35 @@ body {
 
 .third {
   position: absolute; 
-  top: 160px; 
-  left: 512px;
+  top: 145px; 
+  left: 240px;
+  z-index: 1;
 }
 
-.second {
+.second, .fourth {
   background-color: #1d91cf; 
-  color: #ffffff;
-  position: absolute; 
-  top: 0px; 
-  left: 255px;
+  color: #ffffff; 
   height: 200px;
   display: none;
+  width: 200px;
+}
+
+.second{
+  position: absolute; 
+  top: 0px; 
+  left: 225px;
+}
+
+.fourth{
+  position: absolute; 
+  top: 0px; 
+  left: 470px;
 }
 
 .first:hover ~ .second {
   display: block;
 }
 
-.third:hover ~ .second {
+.third:hover ~ .fourth {
   display: block;
 }
