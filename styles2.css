@@ -30,13 +30,13 @@ Background-color: #e1e1e1;
 
 .first {
   position: absolute; 
-  top: 0px;
+  top: 50px;
   left: 0;
 }
 
 .third {
   position: absolute; 
-  top: 0px; 
+  top: 50px; 
   left: 450px;
 }
 
@@ -44,7 +44,7 @@ Background-color: #e1e1e1;
   background-color: #1d91cf; 
   color: #ffffff;
   position: absolute; 
-  top: 60px; 
+  top: 110px; 
   left: 175px; 
   height: 50px;
   width: 500px;
