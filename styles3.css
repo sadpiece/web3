@@ -30,13 +30,13 @@ body {
 
 .first {
   position: absolute; 
-  top: 210px;
+  top: 260px;
   left: 0;
 }
 
 .third {
   position: absolute; 
-  top: 195px; 
+  top: 245px; 
   left: 240px;
   z-index: 1;
 }
@@ -51,13 +51,13 @@ body {
 
 .second{
   position: absolute; 
-  top: 50px; 
+  top: 100px; 
   left: 225px;
 }
 
 .fourth{
   position: absolute; 
-  top: 50px; 
+  top: 100px; 
   left: 470px;
 }
 
